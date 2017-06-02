@@ -1,0 +1,102 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+.inputstyle1 {
+	width: 280px;
+	height: 20px;
+	border: 1px solid gray;
+}
+body {
+	font-size: 14px;
+}
+</style>
+<script language="javascript" type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="153" height="48"><img src="/cpiManager/images/groupmanagerlogo.gif" width="153" height="48"></td>
+                <td background="/cpiManager/images/maintitle-bg.gif">&nbsp;</td>
+                <td width="80"><img src="/cpiManager/images/maintitle-right.gif" width="80" height="48"></td>
+              </tr>
+</table>
+	<div style="width: 800px; margin: 10px auto; color: #F00">
+		
+	</div>
+	<form action="RegisterController" method="post"
+		enctype="multipart/form-data" name="form1">
+		<table style="background-color: #999" width="800" border="0"
+			align="center" cellpadding="3" cellspacing="1">
+			<caption>用户注册</caption>
+			<tr>
+				<td width="200" height="40" align="right" bgcolor="#F5F5F5">用户名：</td>
+				<td width="300" bgcolor="#F5F5F5"><label for="userName"></label>
+					<input name="userName" type="text" class="inputstyle1"
+					id="userName"></td>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="40" align="right" bgcolor="#F5F5F5">密 码：</td>
+				<td bgcolor="#F5F5F5"><input name="userPass" type="password"
+					class="inputstyle1" id="userPass"></td>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="40" align="right" bgcolor="#F5F5F5">年 龄：</td>
+				<td bgcolor="#F5F5F5"><input name="age" type="text"
+					class="inputstyle1" id="age"></td>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="40" align="right" bgcolor="#F5F5F5">性 别：</td>
+				<td bgcolor="#F5F5F5"><input type="radio" name="gender"
+					value="男">男&nbsp;&nbsp; <input type="radio" name="gender"
+					value="女">女</td>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="40" align="right" bgcolor="#F5F5F5">爱 好：</td>
+				<td bgcolor="#F5F5F5"><input type="checkbox" name="favorite"
+					value="打篮球"> 打篮球 <input type="checkbox" name="favorite"
+					value="提篮球"> 提篮球 <input type="checkbox" name="favorite"
+					value="玩篮球"> 玩篮球 <input type="checkbox" name="favorite"
+					value="拍篮球"> 拍篮球</td>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="40" align="right" bgcolor="#F5F5F5">电话：</td>
+				<td bgcolor="#F5F5F5"><input 
+					name="phone" type="text" class="inputstyle1" id="phone"></td>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="40" align="right" bgcolor="#F5F5F5">地址：</td>
+				<td bgcolor="#F5F5F5"><input 
+					name="address" type="text" class="inputstyle1" id="address"></td>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="40" align="right" bgcolor="#F5F5F5">头像：</td>
+				<td bgcolor="#F5F5F5"><input type="file" name="upfile"
+					id="upfile"></td>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td bgcolor="#F5F5F5">&nbsp;</td>
+				<td height="40" colspan="2" bgcolor="#F5F5F5"><input
+					type="submit" name="button" id="button" value="保   存">
+					&nbsp;&nbsp;  <input name="button"
+						type="button" class="submitbutton" onclick="history.go(-1);"
+						value="返    回" /></td>
+			</tr>
+		</table>
+	</form>
+	<br />
+
+</body>
+</html>

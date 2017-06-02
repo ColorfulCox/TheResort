@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>菜单</title>
+	<link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+    <style>
+     body{ margin:0px; padding:0px; height:100%; overflow:hidden;}
+    </style>
+</head>
+<body>
+<div class="easyui-accordion" style="width:260px;height:600px;; margin:0px;">
+  <div title="<span style='font-size:18px'>生日问候</span>" data-options="iconCls:'icon-ok'" style="overflow:auto;padding:10px;font-size:18px;">
+    <a href="#" target="rightFrame"><h3 style="color:#0099FF;">生日提醒</h3></a>
+  </div>
+  <div title="会员管理" data-options="iconCls:'icon-ok'" style="overflow:auto;padding:10px;">
+  <a href="#" target="rightFrame"><h4 style="color:#0099FF;">添加会员</h4></a>
+  <a href="#" target="rightFrame"><h4 style="color:#0099FF;">查询会员</h4></a>
+  <a href="#" target="rightFrame"><h4 style="color:#0099FF;">修改会员</h4></a>
+  <a href="#" target="rightFrame"><h4 style="color:#0099FF;">删除会员</h4></a>
+  </div>
+  <div title="待定" data-options="iconCls:'icon-ok'" style="padding:10px;">
+        <p><a href="#"  target="rightFrame"><h3 style="color:#0099FF;">待定</h3></a></p> 		
+  </div>
+  <div title="待定" data-options="iconCls:'icon-ok'" style="padding:10px;">待定 </div>
+</div>
+</body>
+</html>

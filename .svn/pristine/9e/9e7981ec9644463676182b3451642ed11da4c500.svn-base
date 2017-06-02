@@ -1,0 +1,11 @@
+body{
+	font-size:14px;
+}
+.input{
+	width:150px;
+	height:20px;
+	border:1px solid #CCC;
+}
+.input:hover{
+	background-color:#FBFBFB;
+}

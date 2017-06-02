@@ -1,0 +1,26 @@
+package cn.sendto.TheResort.model;
+
+public class member {
+private int memid;
+private String memtype;
+private String demo;
+public int getMemid() {
+	return memid;
+}
+public void setMemid(int memid) {
+	this.memid = memid;
+}
+public String getMemtype() {
+	return memtype;
+}
+public void setMemtype(String memtype) {
+	this.memtype = memtype;
+}
+public String getDemo() {
+	return demo;
+}
+public void setDemo(String demo) {
+	this.demo = demo;
+}
+
+}

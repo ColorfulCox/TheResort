@@ -1,0 +1,263 @@
+body{scroll:none;scrollbar-face-color:#CBE7FB;scrollbar-base-color:#CBE7FB;scrollbar-3;dlight-color:#CBE7FB;scrollbar-darkshadow-color:#CBE7FB;scrollbar-track-color:#E5F1F9;scrollbar-arrow-color:#062983;sc3rollbar-shadow-color:#062983;}
+.datesytle {
+	font-size: 13px;
+	color: #000066;
+}
+a.nav:link {
+	font-size: 13px;
+	color: #003399;
+	text-decoration: none;
+}
+a.nav:visited {
+	font-size: 13px;
+	color: #003399;
+	text-decoration: none;
+}
+a.nav:hover {
+	font-size: 13px;
+	color: #FF0000;
+	text-decoration: none;
+}
+a.top:link {
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+}
+a.top:visited {
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+}
+a.top:hover {
+	font-size: 13px;
+	color: #3366CC;
+	text-decoration: underline;
+}
+.pagenav {
+	font-size: 13px;
+	color: #006699;
+	text-decoration: none;
+}
+.pageinput {
+	font-size: 13px;
+	color: #006699;
+	height: 20px;
+	width: 30px;
+}
+.maincontentbluebg {
+	background-repeat: repeat-x;
+	font-size: 13px;
+	color: #006699;
+	background-image: url(images/maincontent-bluebg.jpg);
+
+
+}
+.editdel {
+	font-size: 13px;
+}
+.maintitle {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.maintitle1 {
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+}
+.currentpage {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FF0000;
+}
+a.title:link {
+	font-size: 13px;
+	color: #006699;
+	text-decoration: none;
+
+
+}
+a.title:visited {
+	font-size: 13px;
+	color: #006699;
+	text-decoration: none;
+
+
+}
+a.title:hover {
+	font-size: 13px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.whitefont12px {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.message {
+	font-size: 13px;
+	color: #006699;
+	text-decoration: none;
+}
+.message-linespace {
+	font-size: 13px;
+	color: #006699;
+	text-decoration: none;
+	line-height: 21px;
+
+}
+.input-text-sytle93 {
+	font-size: 13px;
+	height: 18px;
+	width: 93%;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.input-text-sytle85 {
+	font-size: 13px;
+	height: 18px;
+	width: 70px;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.input-text-sytle98{
+	font-size: 13px;
+	height: 18px;
+	width: 200px;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.input-text-sytle99{
+	font-size: 13px;
+	height: 18px;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.input-text-sytle2000{
+	font-size: 13px;
+	height: 100px;
+	width: 500px;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.input-text-sytle2010{
+	font-size: 13px;
+	height: 60px;
+	width: 500px;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.input-text-sytle150 {
+	font-size: 13px;
+	height: 18px;
+	width: 150px;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.submitbutton {
+	height: 18px;
+	width: 100px;
+	border: 1px solid #006699;
+	background-color: #DDECFF;
+	font-size: 13px;
+	color: #006699;
+}
+.submitbutton2 {
+	height: 18px;
+	width: 100px;
+	border: 1px solid #006699;
+	background-color: #DDECFF;
+	font-size: 13px;
+	color: #CCCCCC;
+}
+.selectstyle50 {
+	height: 20px;
+	width: 50px;
+	font-size: 13px;
+	border: 1px solid #006699;
+	color: #006699;
+	background-color: #EEFAFF;
+
+
+}
+.input-text-style40 {
+	font-size: 13px;
+	height: 18px;
+	width: 80px;
+	border: 1px solid #006699;
+	color: #006699;
+	background-color: #EEFAFF;
+
+}
+.ipsearch-text-space {
+	font-size: 13px;
+	color: #006699;
+	letter-spacing: 2px;
+}
+.tableborder {
+	border: 1px solid ADC7D8;
+}
+.dateinput {
+	font-size: 13px;
+	height: 18px;
+	width: 80px;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.iprequest {
+	font-size: 13px;
+	height: 18px;
+	width: 350px;
+	border: 1px solid #006699;
+	background-color: #E8F8FF;
+	color: #006699;
+}
+.iprequestmultiline {
+	font-size: 13px;
+	width: 450px;
+	border: 1px solid #006699;
+	background-color: F4FCFF;
+	color: #006699;
+}
+.linecolor {
+	color: #006699;
+}
+.maincontentgreen {
+	background-repeat: repeat-x;
+	font-size: 13px;
+	color: #009900;
+}
+.newsauthortime {
+	font-size: 13px;
+	color: #666666;
+	text-decoration: none;
+}
+a.bottom:link {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.bottom:visited {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.bottom:hover {
+	font-size: 13px;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.helpbody {
+	font-size: 13px;
+	line-height: 26px;
+	color: #000066;
+	text-decoration: none;
+}

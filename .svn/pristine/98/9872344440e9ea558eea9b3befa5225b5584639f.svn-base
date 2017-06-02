@@ -1,0 +1,100 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>无标题文档</title>
+<style type="text/css">
+td{
+	/* border:1px solid #ccc; */
+	text-align:center}
+th{
+	/* border:1px solid #ccc; */
+	background-color:#EEE;
+	height:30px;
+	}
+</style>
+<link rel="stylesheet" href="../css/main.css" />
+<link rel="stylesheet" href="../css/pagestyle.css" type="text/css">
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#data").css("background-color","#DDD");
+	$("#data tr").css("background-color","#FFF");
+	$("#data tr td").css("height","24");
+	$('#data tr').bind("mouseover",function(){
+		$(this).css("background-color","#EEE");
+	});
+	$('#data tr').bind("mouseout",function(){
+		$(this).css("background-color","white");
+	});
+});
+</script>
+</head>
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="153" height="48"><img src="../images/groupmanagerlogo.gif" width="153" height="48"></td>
+                <td background="../images/maintitle-bg.gif">&nbsp;</td>
+                <td width="80"><img src="../images/maintitle-right.gif" width="80" height="48"></td>
+              </tr>
+</table>
+<div style="width: 800px; margin: 10px auto; color: #F00">
+		
+</div>
+<div style="width:95%; margin:15px auto; padding-bottom:10px;">
+  <div style="float:right"><a href="register.html">添加新用户</a>
+  </div>
+</div>
+<table id="data" width="95%" cellpadding="0" cellspacing="1" align="center">
+  <tr>
+    <th>用户名</th>
+    <th>年龄</th>
+    <th>性别</th>
+    <th>爱好</th>
+    <th>注册时间</th>
+    <th>编辑</th>
+    <th>删除</th>
+    <th>头像</th>
+  </tr>
+  
+  <tr >
+    <td>admin</td>
+    <td>25</td>
+    <td>男</td>
+    <td>提篮球,玩篮球</td>
+    <td>2016-09-30 10:20:19</td>
+    <td><a href="EditUserController?id=1&pageIndex=1"><img src="../images/edit.gif" border="0"></a></td>
+    <td>
+    
+    </td>
+    <td></td>
+  </tr>
+
+  <tr >
+    <td>wmj</td>
+    <td>20</td>
+    <td>女</td>
+    <td></td>
+    <td>2016-10-03 16:09:06</td>
+    <td><a href="EditUserController?id=2&pageIndex=1"><img src="../images/edit.gif" border="0"></a></td>
+    <td>
+    
+    <a href="DelUserController?id=2" onclick='return confirm("确定要删除 wmj此用户吗？");'><img src="../images/delimg.gif" border="0"></a>
+    
+    </td>
+    <td></td>
+  </tr>
+
+ </table>
+
+</body>
+</html>

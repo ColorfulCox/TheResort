@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	overflow: hidden;
+}
+.easyui-accordion{
+	border-color:red;
+	width:200px
+	height: 500px;
+}

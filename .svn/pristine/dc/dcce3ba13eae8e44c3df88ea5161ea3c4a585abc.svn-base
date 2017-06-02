@@ -1,0 +1,29 @@
+		function makevisible(cur,which){
+			alert($.browser.msie);
+		if (which==0)
+			if(!$.browser.msie){
+				-moz-opacity:1.0;
+			}else{
+				filter: Alpha(opacity=0.5);    
+			}
+		else
+		if(!$.browser.msie){
+				-moz-opacity:0.8;
+			}else{
+				filter: Alpha(opacity=0.8);    
+			}
+		}
+		function getCookie(name){
+		var cname = name + "=";               
+		var dc = document.cookie;
+		if (dc.length > 0) {              
+			begin = dc.indexOf(cname);
+			if (begin != -1) {           
+				begin += cname.length;
+				end = dc.indexOf(";", begin);
+				if (end == -1) end = dc.length;
+				return unescape(dc.substring(begin, end));        }
+		}
+		return "";
+	}
+			

@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/YMempoints/custype.jsp=UTF-8
+encoding//WebContent/css/top.css=UTF-8
+encoding//WebContent/css/top2.css=UTF-8
+encoding//src/cn/sendto/dao/CustomerDao.java=UTF-8
+encoding//src/cn/sendto/dao/ExpeniseDao.java=UTF-8
+encoding//src/cn/sendto/dao/ProsceniumDao.java=UTF-8
+encoding//src/cn/sendto/dbhelper/ConnectionManager.java=UTF-8
+encoding//src/cn/sendto/service/CustomerService.java=UTF-8
+encoding//src/cn/sendtu/util/DateUtil.java=UTF-8

@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.apan_style{
+	font-size: 25px;
+	font-style: "微软雅黑";
+	font-weight: bold;
+}
+.table_main{
+	width: 80%;
+	margin: 5px auto;
+	padding-top:5px;
+	background-color:#7adee0;
+}
+.tr_a{
+	background-color:  #ebebeb;
+	line-height: 30px;
+	height: 30px;
+}
+.tr_b{
+	background-color: #ebebeb;
+    height: 25px;
+}

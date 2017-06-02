@@ -1,0 +1,9 @@
+a.pagelinkstyle:link {display:block;width:20px; float:left; line-height:20px;font-size: 14px;color: #666666;text-decoration: none;background-color:#D7E7FF;text-align:center;margin-left:5px;}
+a.pagelinkstyle:visited {display:block;width:20px; float:left;line-height:20px;font-size: 14px;color: #666666;text-decoration: none;background-color:#D7E7FF;text-align:center;margin-left:5px;}
+a.pagelinkstyle:hover {display:block;width:20px;float:left; line-height:20px;font-size: 14px;color: #000000;text-decoration: none;background-color:#8CBAFF;text-align:center;margin-left:5px;}
+a.pagelinkstyle1:link {display:block;width:40px;float:left; line-height:20px;font-size: 14px;color: #666666;text-decoration: none;background-color:#D7E7FF;text-align:center;margin-left:5px;}
+a.pagelinkstyle1:visited {display:block;width:40px;float:left; line-height:20px;font-size: 14px;color: #666666;text-decoration: none;background-color:#D7E7FF;text-align:center;margin-left:5px;}
+a.pagelinkstyle1:hover {display:block;width:40px; float:left;line-height:20px;font-size: 14px;color: #000000;text-decoration: none;background-color:#8CBAFF;text-align:center;margin-left:5px;}
+.currentpagestyle{display:block;width:20px;float:left; line-height:20px;background-color:#8CBAFF;font-size: 14px;color: #FF0000;text-align:center;margin-left:5px;}
+.pointstyle{display:block;width:20px;float:left; line-height:20px;background-color:#D7E7FF;font-size: 14px;color: #666666;text-align:center;margin-left:5px;}
+.currentpagesizestyle{display:block;float:left; line-height:20px;background-color:#D7E7FF;font-size: 14px;color: #666666;text-align:center;padding:0px 8px;}

@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("../images/login3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 150%;
+}
+
+.div{
+	padding-top:20px;
+	margin-top:280px;
+	margin-left:600px;
+	width:300px;
+	height:240px;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #CCCCCC;
+}
+.font{
+	font-size: 25px;
+	font-family:"微软雅黑";
+	color:#ff0000;
+}
+.inputusername{
+	background-image: url(../images/username.jpg);
+	background-position: 0px -1px;
+}
+.inputpassword{
+	background-image: url(../images/userpass.jpg);
+	background-position: 2px -1px;
+}
+.inp{
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+	padding-left: 26px;
+	font-size:15px;
+	width: 124px;
+	height: 20px;
+}
+.txt{
+	font-size: 14px;
+	color: #2F4F4F;
+}
+.txt12{
+	font-size: 12px;
+	color: #2F4F4F;
+}
+.tablecenter{
+	margin: 0 auto;
+}

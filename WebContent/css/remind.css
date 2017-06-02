@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+.div_body{
+	}
+.apan_style{
+	font-size: 25px;
+	font-style: "微软雅黑";
+	font-weight: bold;
+}
+.table_hidden{
+	overflow: hidden;
+}
+.table_bottom{
+	background-color: #ebebeb;
+	text-align: center;
+}
+.setable_main{
+	width: 90%;
+	margin: 0 auto;
+	padding-top:5px;
+	background-color:#ffffff;
+}
+.table_tr{
+	height:50px;
+	background-color:#ebebeb;
+}
+.setable_main{
+	width: 80%;
+	margin: 0 auto;
+	padding-top:5px;
+	background-color: #fff;
+}
+.setable{
+	background-color: #7adee0;
+	line-height: 30px;
+	height: 30px;
+}

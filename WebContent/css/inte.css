@@ -1,0 +1,97 @@
+
+.intediv{
+	height:400px;
+	width:700px;
+	background-color:#ccc;
+	margin: 80px auto;
+}
+.intetr{
+	background-color: #EEEEEE;
+}
+.intetd{
+	height:57px;
+	width:20%;
+	text-align: center;
+}
+.intetable{
+	background-color: #00BBEE;
+	height:400px;
+	width:700px;
+}
+.memdiv{
+	height:400px;
+	width:600px;
+	margin: 0 auto;
+}
+.memtable{
+	height:400px;
+	width:840px;
+	text-align: center;
+	background-color: #ccc;
+}
+.memtr{
+	height:50px;
+	width: 840px;
+	background-color: #fff;
+}
+.memtd{
+	width:120px;
+}
+.rediv{
+	width:450px;
+	margin: 100px auto;
+    border:1px solid #000;
+    background-color: #dfffff;
+    border-radius:10px;
+}
+.reinput{
+	height:40px;
+	width:200px;
+}
+.resubmit{
+	height:40px;
+	width:80px;
+	background-color: #00ffff;
+}
+.dorediv{
+	height:500px;
+	width: 400px;
+	margin: 30px auto;
+	background-color: #dfffff;
+}
+.doretable{
+	height:500px;
+	width:400px;
+	text-align: center;
+	border: 1px solid;
+}
+.doretr{
+	width:400px;
+}
+.doretd{
+	text-align:right;
+	height:40px;
+	width:150px;
+}
+.mytable{
+	height:300px;
+	width:100%;
+	text-align: center;
+	border: 1px solid darkgrey;
+}
+.mytr{
+	height:50px;
+	width:100%;
+	background-color: #fff;
+}
+.mytrr{
+	height:50px;
+	width:100%;
+	background-color: #ccc;
+}
+.text{
+	text-align:center;
+	border: 0px solid #ccc;
+	background-color: #dfffff;
+}
+

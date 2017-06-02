@@ -1,0 +1,103 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CPI大数据图形报表</title>
+<link rel="stylesheet" type="text/css"
+	href="../css/style.css">
+<script
+	src="../My97DatePicker/WdatePicker.js"
+	type="text/javascript"></script>
+<script type="text/javascript"
+	src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+	function check() {
+		var value  = $('input[name="plotType"]:checked').val(); 
+		if (value=="pie") {
+			if ($.trim($("#areaid").val()) == "") {
+				alert("请选择数据来源区域，此值不能为空。");
+				$("#areaid").focus();
+				return false;
+			}
+		}
+		if ($.trim($("#cpidate").val()) == "") {
+			alert("时间不能为空，请输入数据来源时间！");
+			$("#cpidate").focus();
+			return false;
+		}
+	}
+</script>
+</head>
+<body>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="153" height="48"><img
+				src="../images/cpireport.gif"
+				width="153" height="48"></td>
+			<td
+				background="../images/maintitle-bg.gif">&nbsp;</td>
+			<td width="80"><img
+				src="../images/maintitle-right.gif"
+				width="80" height="48"></td>
+		</tr>
+	</table>
+	<form action="ShowChartController" method="post">
+		<table width="100%" border="0" cellpadding="0" cellspacing="5"
+			class="pagenav">
+			<tr>
+				<td align="left" nowrap><strong>搜索条件：</strong></td>
+				<td align="right" nowrap>CPI数据父类：</td>
+				<td><select id="datatypeid" name="datatypeid"
+					class="input-text-sytle98">
+						
+							<option value="1"
+								>水果类</option>
+						
+							<option value="2"
+								>蔬菜类</option>
+						
+							<option value="3"
+								>粮食类</option>
+						
+							<option value="4"
+								>药品类</option>
+						
+				</select></td>
+				<td align="right">数据来源区域：</td>
+				<td><select id="areaid" name="areaid"
+					class="input-text-sytle98">
+						<option value="">请选择</option>
+						
+							<option value="1"
+								selected>甘肃省</option>
+						
+							<option value="2"
+								>陕西省</option>
+						
+				</select></td>
+				<td align="right">时间：</td>
+				<td><input id="cpidate" name="cpidate" type="text"
+					value="2016-10"
+					onclick="new WdatePicker({ dateFmt: 'yyyy-MM', isShowToday: false, isShowClear: false })"
+					class="input-text-sytle98"></td>
+				<td align="right">图表类型：</td>
+				<td> 
+						<input type="radio" name="plotType" value="bar" checked="checked" />柱状图
+			  &nbsp;&nbsp;&nbsp;&nbsp;
+			  <input type="radio" name="plotType" value="pie"/>饼图
+			  </td>
+				<td align="right"></td>
+				<td><input id="btnsubmit" name="btnsubmit" type="image"
+					src="../images/bseach.gif"
+					onclick="return check()"></td>
+			</tr>
+		</table>
+	</form>
+	<p>
+		<img alt="" src="../images/displayChart2-2.png">
+	</p>
+</body>
+</html>

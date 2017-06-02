@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>菜单</title>
+<link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="css/icon.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	overflow: hidden;
+}
+</style>
+</head>
+<body>
+	<div class="easyui-accordion"
+		style="width: 200px; height: 600px;; margin: 0px;">
+		<div title="业务中心" data-options="iconCls:'icon-ok'"
+			style="overflow: auto; padding: 10px; font-size: 10px;">
+			<a href="YBuscenter/remind.jsp" target="right"><h3
+					style="color: #0099FF;">生日提醒</h3></a> <a
+				href="YBuscenter/balancequery.jsp" target="right"><h3
+					style="color: #0099FF;">余额查询</h3></a> <a href="YBuscenter/recharge.jsp"
+				target="right"><h3 style="color: #0099FF;">快捷充值</h3></a>
+		</div>
+		<div title="会员管理" data-options="iconCls:'icon-ok'"
+			style="overflow: auto; padding: 10px;">
+			<a href="YMemment/user_list.jsp" target="right"><h4
+					style="color: #0099FF;">会员列表</h4></a> <a href="YMemment/insert.jsp"
+				target="right"><h4 style="color: #0099FF;">会员登记</h4></a>
+		</div>
+		<div title="会员级别" data-options="iconCls:'icon-ok'"
+			style="padding: 10px;">
+			<p>
+				<a href="YMemgrade/inteRules.jsp" target="right"><h3
+						style="color: #0099FF;">级别制度</h3></a>
+			</p>
+		</div>
+		<div title="会员积分" data-options="iconCls:'icon-ok'"
+			style="padding: 10px;">
+			<p>
+				<a href="YMempoints/select.jsp" target="right"><h3
+						style="color: #0099FF;">积分查询</h3></a>
+			</p>
+			<p>
+				<a href="YMempoints/custype.jsp" target="right"><h3
+						style="color: #0099FF;">积分规则</h3></a>
+			</p>
+			<p>
+				<a href="YMempoints/exchange.jsp" target="right"><h3
+						style="color: #0099FF;">礼品展示</h3></a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
